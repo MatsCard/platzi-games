@@ -1,0 +1,12 @@
+extend componentes/plantilla.pug
+block contenidos
+  
+  .contenido
+    nav(class="caja__contenido")
+      h1 MENU
+      each enlace in enlaces
+        p=enlace
+    .principal
+      h1 TITULO PRINCIPAL
+      p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis tenetur deleniti tempore ratione, repellendus aliquam quidem expedita eligendi dolorum, sed et. Reiciendis accusamus facilis incidunt nostrum. Accusantium fuga consequuntur incidunt.
+      a.boton Ver Mas
