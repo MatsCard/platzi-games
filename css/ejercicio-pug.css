@@ -95,6 +95,7 @@ header a {
 	align-items: center;
   justify-content: center;
 }
+
 .caja {
 	max-width: 400px;
 	margin: 50px 20px;
@@ -113,7 +114,7 @@ header a {
 
 .caja__contenido {
 	background-color: #EEF1F7;
-	padding: 20px;
+	padding: 40px;
 }
 
 footer ul {
@@ -124,4 +125,13 @@ footer ul {
 footer li {
 	list-style: none;
 	margin: 0 20px;
+}
+
+nav.caja__contenido {
+	width: 25%;
+}
+
+.principal {
+	padding: 20px 40px;
+	width: 75%;
 }
