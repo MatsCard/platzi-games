@@ -29,17 +29,20 @@ header, footer {
 	background-color: #8898C0;
 	color: #FFF;
 	text-transform: uppercase;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header .boton, header a {
-	margin-left: auto;
 }
 
 header a {
-	margin-left: auto;
 	font-weight: bold;
 	font-size: 25px;
 	margin-top: 10px;
+	color: #EEF1F7;
+	text-decoration: none;
+	display:flex
 }
 
 .intro {
