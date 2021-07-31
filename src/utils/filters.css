@@ -1,0 +1,41 @@
+
+.encabezado--con-filtros {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+  flex-direction: column;
+}
+.encabezado--con-filtros h2 {
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 30px;
+}
+.encabezado--con-filtros .filtros {
+  width: 250px;
+  height: 60px;
+  padding: 20px;
+  margin-left: auto;
+  color: #333333;
+  box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+}
+.encabezado--con-filtros span {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.encabezado--con-filtros i {
+  margin-left: 20px;
+  color: #ccc;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 764px) {
+
+.encabezado--con-filtros {
+  flex-direction: row;
+  }
+}

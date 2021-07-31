@@ -1,0 +1,31 @@
+
+.caja--con-fondo__stats {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    border-top: none;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .caja--con-fondo__stats ul {
+    display: flex;
+  }
+  .caja--con-fondo__stats li {
+    display: flex;
+    margin-right: 50px;
+    opacity: 0.8;
+  }
+  .caja--con-fondo__stats i {
+    color: #FFF;
+  }
+  .caja--con-fondo__stats span {
+    color: #FFF;
+  }
+
+
+
+  @media screen and (min-width: 420px) {
+    .caja--con-fondo__stats {
+      font-size: 1.125rem;
+    }
+  }

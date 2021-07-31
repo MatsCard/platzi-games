@@ -1,0 +1,41 @@
+
+
+.banner--homepage {
+    max-width: 300px;
+    padding: 50px;
+    margin-bottom: 20px;
+    background-color: #8841DA;
+    color: #FFF;
+  }
+  .banner--homepage h3 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .banner--homepage .button {
+    padding: 10px;
+    height: 50px;
+    color: #FFF;
+    border: 2px solid #FFF;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+
+@media only screen and (min-width: 992px) {
+    .banner--homepage {
+      -ms-grid-row: 2;
+      -ms-grid-row-span: 2;
+      grid-row: 2/4;
+      -ms-grid-column: 4;
+      -ms-grid-column-span: 1;
+      grid-column: 4/5;
+    }
+  }

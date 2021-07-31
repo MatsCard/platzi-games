@@ -1,0 +1,48 @@
+
+.articulos {/* 
+    width: 40%; */
+    padding: 50px 0 0 10px;
+  }
+  
+  .articulo {
+    margin-bottom: 75px;
+    border-bottom: 3px solid #8841DA;
+  }
+  .articulo__categoria {
+    font-weight: 500;
+    font-size: 14px;
+    color: #8841DA;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .articulo__titulo {
+    font-size: 20px;
+    color: #333333;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .articulo__descripcion {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    padding-right: 100px;
+  }
+  
+  .articulo--principal {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .articulo--principal__intro {
+    font-size: 25px;
+  }
+  .articulo--principal h3 {
+    color: #8841DA;
+  }
+  .articulo--principal h2 {
+    margin: 40px 0 40px 0;
+    text-align: center;
+  }
+  

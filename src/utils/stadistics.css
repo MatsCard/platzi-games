@@ -1,0 +1,54 @@
+
+.estadistica--perfil {
+    display: flex;
+    width: 80%;
+    padding-top: 15px;
+    margin: 0 auto;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #FFF;
+    color: #333333;
+    box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.2);
+  }
+  .estadistica--perfil h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .estadistica--perfil span {
+    font-size: 12px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.5);
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .estadistica--articulos {
+    height: 70px;
+    padding: 20px;
+    border-top: 1px solid #E9E9E9;
+  }
+  .estadistica--articulos ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  .estadistica--articulos li {
+    list-style: none;
+    color: rgba(51, 51, 51, 0.2);
+  }
+  .estadistica--articulos span {
+    margin-left: 10px;
+  }
+  
+@media screen and (min-width: 425px) {
+  
+.estadistica--perfil {
+  width: 50%;
+}
+}
