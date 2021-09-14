@@ -9,7 +9,7 @@ function Header(props) {
 
     return (     
         <header className="header--principal">
-            <Link to="/" className="logo logo--header">
+            <Link to="/platzi-games" className="logo logo--header">
                 <img src={logoHeader} alt="logo" />
             </Link>
             <nav className="nav--header">
